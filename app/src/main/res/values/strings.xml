@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinalsTamanoFirebaseProject</string>
+    <string name="welcome_to_my_firebase_project">Welcome To My Firebase Project</string>
+    <string name="sign_up">Sign up</string>
+    <string name="todo">TODO</string>
+    <string name="tamano_project_2022">© Tamano Project 2022</string>
+    <string name="login">Login</string>
+    <string name="tamano_final_firebase_project">TAMANO FINAL FIREBASE PROJECT</string>
+    <string name="title_activity_add_product_page">AddProductPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

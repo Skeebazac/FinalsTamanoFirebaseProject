@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "239977291732",
+    "firebase_url": "https://finalstamanofirebaseproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finalstamanofirebaseproject",
+    "storage_bucket": "finalstamanofirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239977291732:android:d68586d8d8817481e44041",
+        "android_client_info": {
+          "package_name": "com.eldroid.finalstamanofirebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239977291732-o29qonos9rh98ji32vuu8glhirt84j5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVfdRXP9DW7we2DWCK0fH3fWLxr8QdT3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239977291732-o29qonos9rh98ji32vuu8glhirt84j5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
