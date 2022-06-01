@@ -128,7 +128,17 @@ public class AddProductPage extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if(task.isSuccessful()) {
-                                            uploadImage(productID);
+                                            if(selectedImage == null) {
+                                                Toast.makeText(getApplicationContext(), "Successfully added the product!", Toast.LENGTH_SHORT).show();
+                                                progressDialog.dismiss();
+                                                Intent intent = new Intent(AddProductPage.this, HomePage.class);
+                                                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                                                finish();
+                                                startActivity(intent);
+                                            }
+                                            else {
+                                                uploadImage(productID);
+                                            }
                                         }
                                     }
                                 });
